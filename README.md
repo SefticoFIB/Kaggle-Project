@@ -5,11 +5,7 @@ This project involves developing machine learning models to detect fraudulent cr
 ## Table of Contents
 - [Introduction](#introduction)
 - [Dataset](#dataset)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 Credit card fraud is a significant issue that affects both cardholders and financial institutions. This project aims to build an effective fraud detection system using various machine learning models. The models are evaluated based on multiple performance metrics.
@@ -17,15 +13,6 @@ Credit card fraud is a significant issue that affects both cardholders and finan
 ## Dataset
 The dataset used for this project is the "Credit Card Fraud Detection" dataset, which can be found on [Kaggle](https://www.kaggle.com/datasets/ealtman2019/credit-card-transactions).
 
-## Installation
-To run this project, you will need to have Python installed along with the following libraries:
-- pandas
-- numpy
-- scikit-learn
-- matplotlib
-- seaborn
-- imbalanced-learn
+## Results
+The project evaluates various machine learning models including Logistic Regression, Decision Trees, Random Forest, and Gradient Boosting. The performance of these models is compared using metrics such as accuracy, precision, recall, and the F1 score. To view a radar chart comparing the models based on these metrics, kindly open the project file.
 
-You can install these dependencies using pip:
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn imbalanced-learn
